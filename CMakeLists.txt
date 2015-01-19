@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(libopenmesh)
 
-set(VERSION 3.2)
-set(LOCAL_CORE_LIB ${PROJECT_SOURCE_DIR}/lib/OpenMesh/libOpenMeshCore.so.${VERSION})
-set(LOCAL_TOOLS_LIB ${PROJECT_SOURCE_DIR}/lib/OpenMesh/libOpenMeshTools.so.${VERSION})
+set(VERSION 3.3)
+set(LOCAL_CORE_LIB ${PROJECT_SOURCE_DIR}/lib/libOpenMeshCore.so.${VERSION})
+set(LOCAL_TOOLS_LIB ${PROJECT_SOURCE_DIR}/lib/libOpenMeshTools.so.${VERSION})
 set(GLOBAL_CORE_LIB ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_LIB_DESTINATION}/libOpenMeshCore.so)
 set(GLOBAL_TOOLS_LIB ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_LIB_DESTINATION}/libOpenMeshTools.so)
 
