@@ -5,6 +5,7 @@ TARBALL = build/OpenMesh-$(VERSION).tar.gz
 TARBALL_URL = http://www.openmesh.org/media/Releases/$(VERSION)/OpenMesh-$(VERSION).tar.gz
 SOURCE_DIR = build/OpenMesh-$(VERSION)
 UNPACK_CMD = tar xzf
+INSTALL_DIR = $(shell pwd)
 
 include $(shell rospack find mk)/download_unpack_build.mk
 
